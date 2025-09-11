@@ -64,7 +64,8 @@
               "buildTarget": "investment:build:production"
             },
             "development": {
-              "buildTarget": "investment:build:development"
+              "buildTarget": "investment:build:development",
+              "port": 4300
             }
           },
           "defaultConfiguration": "development"

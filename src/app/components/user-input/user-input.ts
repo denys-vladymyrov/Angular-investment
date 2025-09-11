@@ -1,6 +1,6 @@
 import {Component, output} from '@angular/core';
 import {FormsModule} from '@angular/forms';
-import {InvestmentResults} from '../../models';
+import {InvestmentInput} from '../../models';
 
 @Component({
   selector: 'app-user-input',
@@ -11,7 +11,7 @@ import {InvestmentResults} from '../../models';
   styleUrl: './user-input.scss'
 })
 export class UserInput {
-  calculate = output<InvestmentResults>()
+  calculate = output<InvestmentInput>()
   enteredInitialInvestment = '0';
   enteredAnnualInvestment = '0';
   enteredExpectedReturn = '5';
